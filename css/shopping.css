@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.s_header {
+  border-bottom: 1px solid #000;
+  width: 950px;
+  margin: 0 auto;
+  background: #fff;
+  height: 64px;
+  padding-top: 12px;
+  z-index: 99;
+  position: relative; }
+  .s_header h1 {
+    height: 59px;
+    width: 194px;
+    margin-left: 13px; }
+    .s_header h1 a {
+      height: 59px;
+      width: 194px;
+      overflow: hidden;
+      display: block;
+      position: relative; }
+      .s_header h1 a b {
+        background: url(../images/s_05.png) no-repeat;
+        width: 194px;
+        height: 59px;
+        left: 0;
+        top: 0;
+        position: absolute; }
+  .s_header .s_column {
+    right: 10px;
+    top: 15px;
+    width: 600px;
+    text-align: right;
+    color: #151515;
+    position: absolute; }
+    .s_header .s_column .s_mar a {
+      float: right;
+      padding: 0 10px;
+      color: #5b5b5b;
+      text-decoration: none; }
+    .s_header .s_column .s_mar span {
+      text-align: right;
+      color: #151515; }
+      .s_header .s_column .s_mar span b {
+        font-size: 16px;
+        color: #F26521;
+        line-height: 18px;
+        font-weight: bold; }
+
+.warse_div {
+  width: 950px;
+  margin: 0 auto; }
+  .warse_div table {
+    width: 950px;
+    display: table;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif; }
+    .warse_div table .diyi {
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit; }
+      .warse_div table .diyi th {
+        height: 32px;
+        color: #fff;
+        background-position: 0 -73px;
+        background-repeat: repeat-x;
+        font-weight: normal;
+        color: black;
+        background-color: #E3E3E3; }
+        .warse_div table .diyi th label {
+          float: left;
+          padding: 0 0 0 10px;
+          cursor: default; }
+          .warse_div table .diyi th label input {
+            vertical-align: middle; }
+    .warse_div table .dier {
+      border-bottom: 1px solid #D6D3D3;
+      background: #fff4e8; }
+      .warse_div table .dier .chebox {
+        line-height: 25px;
+        padding: 10px;
+        text-align: left;
+        padding-left: 15px; }
+        .warse_div table .dier .chebox input {
+          vertical-align: middle; }
+      .warse_div table .dier .photo {
+        text-align: center;
+        line-height: 25px;
+        padding: 10px; }
+        .warse_div table .dier .photo img {
+          border: #DFDFDF solid 1px; }
+      .warse_div table .dier .name {
+        text-align: left;
+        padding: 10px 10px 0px; }
+      .warse_div table .dier .price {
+        text-align: center;
+        line-height: 25px;
+        padding: 10px;
+        color: #000; }
+      .warse_div table .dier .shuliang {
+        text-align: center;
+        line-height: 25px;
+        padding: 10px; }
+        .warse_div table .dier .shuliang .down {
+          border: 1px solid #666;
+          height: 10px;
+          width: 10px;
+          overflow: hidden;
+          display: inline-block;
+          line-height: 8px;
+          margin-bottom: -3px; }
+        .warse_div table .dier .shuliang input {
+          line-height: 15px;
+          height: 15px;
+          width: 30px;
+          border: 1px solid #dfdfdf;
+          margin: 0 10px;
+          text-align: center; }
+        .warse_div table .dier .shuliang .up {
+          border: 1px solid #666;
+          height: 10px;
+          width: 10px;
+          overflow: hidden;
+          display: inline-block;
+          line-height: 8px;
+          margin-bottom: -3px; }
+    .warse_div table .disan {
+      height: 60px;
+      border: 1px solid #d8d7d7;
+      background: #fff;
+      margin: 5px auto 0; }
+      .warse_div table .disan .yixuan {
+        width: 180px;
+        text-align: center; }
+        .warse_div table .disan .yixuan b {
+          margin: 0 5px;
+          color: #ea7515;
+          font-weight: bold; }
+      .warse_div table .disan .jiage {
+        line-height: 24px; }
+        .warse_div table .disan .jiage span {
+          color: #ea7515;
+          font-size: 20px;
+          font-weight: normal; }
+      .warse_div table .disan .jiesuan input {
+        margin: 5px;
+        float: right;
+        display: block;
+        width: 114px;
+        height: 50px;
+        line-height: 50px;
+        background: url(../images/cartbar_btn.jpg) no-repeat;
+        text-indent: -9999em;
+        overflow: hidden;
+        border: 0px;
+        cursor: pointer;
+        background-position: 0 -50px; }
+
+/*# sourceMappingURL=shopping.css.map */

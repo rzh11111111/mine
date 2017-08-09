@@ -1,0 +1,192 @@
+.s_header{
+    border-bottom: 1px solid #000;
+    width: 950px;
+    margin: 0 auto;
+    background: #fff;
+    height: 64px;
+    padding-top: 12px;
+    z-index: 99;
+    position: relative;
+    h1{
+        height: 59px;
+        width: 194px;
+        margin-left: 13px;
+        a{
+            height: 59px;
+            width: 194px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            b{
+                    background: url(../images/s_05.png) no-repeat;
+                    width: 194px;
+                    height: 59px;
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+            }
+        }
+    }
+    .s_column{
+        right: 10px;
+        top: 15px;
+        width: 600px;
+        text-align: right;
+        color: #151515;
+        position: absolute;
+        .s_mar{
+            a{
+                float: right;
+                padding: 0 10px;
+                color: #5b5b5b;
+                text-decoration: none;
+            }
+            span{
+                text-align: right;
+                color: #151515;
+                b{
+                        font-size: 16px;
+                        color: #F26521;
+                        line-height: 18px;
+                        font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.warse_div{
+    width: 950px;
+    margin: 0 auto;
+    table{
+        width: 950px;
+        display: table;
+        font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+        .diyi{
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+            th{
+                    height: 32px;
+                    
+                    color: #fff;
+                    background-position: 0 -73px;
+                    background-repeat: repeat-x;
+                    font-weight: normal;
+                    color: black;
+                    background-color: #E3E3E3;
+                    label{
+                        float: left;
+                        padding: 0 0 0 10px;
+                        cursor: default;
+                        input{
+                           vertical-align: middle;     
+                        }
+                    }
+            }
+        }
+        .dier{
+            border-bottom: 1px solid #D6D3D3;
+            background: #fff4e8;
+            .chebox{
+                line-height: 25px;
+                padding: 10px;
+                text-align: left;
+                padding-left: 15px;
+                input{
+                    vertical-align: middle;
+                }
+            }
+            .photo{
+                    text-align: center;
+                    line-height: 25px;
+                    padding: 10px;
+                    img{
+                        border: #DFDFDF solid 1px;
+                    }
+            }
+            .name{
+                text-align: left;
+                padding: 10px 10px 0px;
+            }
+            .price{
+                text-align: center;
+                line-height: 25px;
+                padding: 10px;
+                    color: #000;
+            }
+            .shuliang{
+                text-align: center;
+                line-height: 25px;
+                padding: 10px;
+                .down{
+                    border: 1px solid #666;
+                    height: 10px;
+                    width: 10px;
+                    overflow: hidden;
+                    display: inline-block;
+                    line-height: 8px;
+                    margin-bottom: -3px;
+                }
+                input{
+                    line-height: 15px;
+                    height: 15px;
+                    width: 30px;
+                    border: 1px solid #dfdfdf;
+                    margin: 0 10px;
+                    text-align: center;
+                }
+                .up{
+                    border: 1px solid #666;
+                    height: 10px;
+                    width: 10px;
+                    overflow: hidden;
+                    display: inline-block;
+                    line-height: 8px;
+                    margin-bottom: -3px;
+                }
+            }
+        }
+        .disan{
+            height: 60px;
+    
+            border: 1px solid #d8d7d7;
+            background: #fff;
+            margin: 5px auto 0;
+            .yixuan{
+                    width: 180px;
+                    text-align: center;
+                b{
+                    margin: 0 5px;
+                    color: #ea7515;
+                    font-weight: bold;
+                }
+            }
+            .jiage{
+                line-height: 24px;
+                span{
+                    color: #ea7515;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+            }
+            .jiesuan{
+                    input{
+                        margin: 5px;
+                        float: right;
+                        display: block;
+                        width: 114px;
+                        height: 50px;
+                        line-height: 50px;
+                        background: url(../images/cartbar_btn.jpg) no-repeat;
+                        text-indent: -9999em;
+                        overflow: hidden;
+                        border: 0px;
+                        cursor: pointer;
+                        background-position: 0 -50px;
+                    
+                }
+            }
+        }
+    }
+}

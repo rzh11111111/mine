@@ -1,0 +1,266 @@
+header{
+    width: 1200px;
+    margin: 0 auto;
+    div{
+        height: 60px;
+        h1{
+            float: left;
+            width: 194px;
+            height: 30px;
+            position: relative;
+            margin: 15px auto;
+            a{
+                position: absolute;
+                z-index: 1;
+                display: block;
+                width: 194px;
+                height: 30px;
+                top: 0;
+                left: 0;
+                
+            }
+        }
+    }
+}
+section{
+    border-top: 1px solid #e5e5e5;
+    padding: 0;
+    overflow: visible;
+    text-shadow: #fff 0 1px 0;
+    .nei{
+        position: relative;
+        width: 100%;
+        height: 700px;
+        text-shadow: #fff 0 1px 0;
+        .beijing{
+                width: 100%;
+                top: 0;
+                margin-left: -50%;
+                padding: 70px 0;
+                z-index: 0;
+                background: url(../images/login_bg.jpg) center no-repeat #f7f2ec;
+                height: 560px;
+                left: 50%;
+                position: absolute;
+        }
+        .neirong{
+            top: 70px;
+            
+            z-index: 1;
+            height: 560px;
+            
+            position: absolute;
+            width: 1200px;
+            margin: 0 auto;
+            .you{
+                background: #fff;
+                width: 420px;
+                height: 560px;
+                position: absolute;
+                top: 0;
+                right: 30px;
+                z-index: 10;
+                border: 1px solid #d8d8d8;
+                box-shadow: 0 0 20px #c8c8c8;
+                .top{
+                    height: 52px;
+                    text-align: center;
+                    p{
+                        font: 900 28px/52px "";
+                        width: 420px;
+                        background: #f7f7f9;
+                        color: #464646;
+                        text-decoration: none;
+                        
+                        border-color: #464646;
+                    }
+                } 
+                .center{
+                    width: 302px;
+                     margin: 30px auto 0;
+                    ul{
+                        .cuowu{
+                            margin-top: 10px;
+                            margin-bottom: 5px;
+                            position: relative;
+                            zoom: 1;
+                            label{
+                                color: #d2041f;
+                                line-height: 12px;
+                                font-size: 12px;
+                                position: relative;
+                                padding: 0 40px 0 20px;
+                                display: block;
+                                cursor: default;
+                                b{
+                                        display: none;
+                                        width: 12px;
+                                        height: 12px;
+                                        background: url(../images/login_sprite.png) -200px 0 no-repeat;
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                }
+                                span{
+                                    color: #d2041f;
+                                    line-height: 12px;
+                                    font-size: 12px;
+                                    position: relative;
+                                    padding: 0 40px 0 20px;
+                                    display: none;
+                                    cursor: default;
+                                }
+                            }
+                        }
+                        .username{
+                            input{
+                                width: 280px;
+                                height: 24px;
+                                line-height: 24px;
+                                border: 1px solid #d8d8d8;
+                                color: #464646;
+                                padding: 5px 10px;
+                                font-size: 12px;
+                                position: relative;
+                            }
+                        }
+                        .password{
+                            margin-top: 24px;
+                            position: relative;
+                            zoom: 1;
+                            input{
+                                width: 280px;
+                                height: 24px;
+                                line-height: 24px;
+                                border: 1px solid #d8d8d8;
+                                color: #464646;
+                                padding: 5px 10px;
+                                font-size: 12px;
+                                position: relative;
+                            }
+                        }
+                        .zhuce{
+                            margin-top: 24px;
+                            position: relative;
+                            zoom: 1;
+                            a{
+                                float: right;
+                                color: #464646;
+                            }
+                        }
+                        .denglu{
+                            margin-top: 24px;
+                            position: relative;
+                            zoom: 1;
+                            height: 60px;
+                            input{
+                                float: left;
+                                width: 300px;
+                                height: 40px;
+                                line-height: 40px;
+                                border: 0;
+                                background: url(../images/login_sprite.png) 0 -40px no-repeat;
+                                color: #fff;
+                                font-size: 14px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    width: 300px;
+                    margin: 0 auto;
+                    padding: 30px 0 0;
+                    dt{
+                        display: block;
+                        height: 20px;
+                        line-height: 20px;
+                        margin: -15px 0 25px;
+                        zoom: 1;
+                        position: relative;
+                        border-bottom: 1px solid #e7e7e7;
+                        span{
+                            position: absolute;
+                            left: 50%;
+                            top: 10px;
+                            margin: 0 0 0 -60px;
+                            background: #fff;
+                            width: 120px;
+                            height: 20px;
+                            line-height: 20px;
+                            text-align: center;
+                        }
+                    }
+                    dd{
+                        ul{
+                            width: 300px;
+                            height: 30px;
+                            margin: 0 auto;
+                            zoom: 1;
+                            li{
+                                float: left;
+                                width: 30px;
+                                height: 30px;
+                                margin: 0 30px 0 0;
+                                overflow: hidden;
+                                zoom: 1;
+                                a{
+                                    opacity: .8;
+                                    display: block;
+                                    width: 30px;
+                                    height: 30px;
+                                    background: url(../images/login_sprite.png) no-repeat;
+                                    transition: all .3s;
+                                }
+                                .api-qq{
+                                    background-position: 0 0;
+                                }
+                                .api-wechat{
+                                    background-position: -30px 0;
+                                }
+                                .api-sina{
+                                    background-position: -60px 0;
+                                }
+                                .api-alipay{
+                                    background-position: -90px 0;
+                                }
+                                .api-pingan{
+                                    background-position: -120px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .erweima{
+                    background: url(../images/login_sprite.png) 0 -400px no-repeat;
+                     z-index: 100;
+                     width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    height: 100px;
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    .footer-top{
+        padding-top: 15px;
+            text-align: center;
+        a{
+            color: #464646;
+        }
+    }
+    .footer-bottom{
+        text-align: center;
+    padding-top: 10px;
+    color: #999;
+    }
+}
